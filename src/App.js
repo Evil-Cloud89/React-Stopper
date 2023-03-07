@@ -1,14 +1,11 @@
 import Container from "./components/Container/Container";
-import Button from "./components/Button/Button";
+import Stopwatch from "./components/Stopwatch/Stopwatch";
 
 function App() {
   
   return (
     <Container>
-      <h1>HH:mm:ss.ms</h1>
-      <Button>Start</Button>
-      <Button>Stop</Button>
-      <Button>Reset</Button>
+      <Stopwatch />
     </Container>
   );
 }
